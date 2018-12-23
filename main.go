@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"io/ioutil"
+	"net"
 )
 
 func main() {
@@ -15,5 +16,13 @@ func main() {
 	}
 	defer response.Body.Close()
 	ip, err := ioutil.ReadAll(response.Body)
+	if err != nil || !isValidIP(string(ip)) {
+		fmt.Println("ERROR: IP format received from API is invalid.")
+		os.Exit(2)
+	}
 	fmt.Println(string(ip))
+}
+
+func isValidIP(content string) bool {
+	return net.ParseIP(content) != nil
 }
