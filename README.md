@@ -2,6 +2,10 @@
 
 Get your public IP from the command line.
 
+From the same collection as [show-my-ip](https://github.com/TwinProduction/show-my-ip), a Firefox extension that does just that.
+
+![installation](img/installation.gif)
+
 
 ## Usage
 
