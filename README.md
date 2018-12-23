@@ -23,7 +23,13 @@ or you can build it yourself by doing the following:
 git clone https://github.com/TwinProduction/gip
 cd gip
 go build
+chmod +x gip
+mv gip /usr/local/bin
 ```
+
+
+
+
 
 
 

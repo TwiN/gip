@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	response, err := http.Get("https://twinnatiosn.org/api/v1/ip")
+	response, err := http.Get("https://twinnation.org/api/v1/ip")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
