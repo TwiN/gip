@@ -1,11 +1,11 @@
 package main
 
 import (
-	"net/http"
 	"fmt"
-	"os"
 	"io/ioutil"
 	"net"
+	"net/http"
+	"os"
 )
 
 const defaultApiUrl = "https://twinnation.org/api/v1/ip"
