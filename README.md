@@ -33,6 +33,8 @@ sudo mv gip /usr/local/bin
 
 ## Custom API URL
 
+By default, this uses my website's API - https://twinnation.org/api/v1/ip
+
 Want to use a different API for getting the IP?
 
 No problem, all you have to do is set the **GIP_API_URL** environment variable to the API of your choice.
