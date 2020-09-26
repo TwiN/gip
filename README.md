@@ -21,13 +21,10 @@ And as a result, your public IP is returned.
 ## Installation
 
 You can either use a precompiled binary from the [release](https://github.com/TwinProduction/gip/releases) section, 
-or you can build it yourself by doing the following:
+or you can build it yourself by doing the following, assuming you have a working Go environment:
 
 ```bash
-git clone https://github.com/TwinProduction/gip
-cd gip
-go build
-sudo mv gip /usr/local/bin
+go get -u github.com/TwinProduction/gip
 ```
 
 
